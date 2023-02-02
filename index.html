@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Style/style.css">
+    <title>Meal App</title>
+</head>
+<body>
+
+    <div class="search-container">
+        <h1>Search Your Meal!</h1>
+        <input type="search" name="search" id="search">
+        <button id="search-btn">
+            Search
+        </button>
+        <button class="fav-btn" onclick="window.open('fav.html', '_blank')">
+            <i class="far fa-heart"></i>
+            Your Favourites
+        </button>
+
+        <div class="search-result">
+
+            <ul class = "search-items">
+                
+            </ul>
+
+        </div>
+    </div>
+
+
+    <script src="./Script/index.js"></script>
+
+</body>
+</html>

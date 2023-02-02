@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 33em;
+    align-items: center;
+    border: 1px dashed gray;
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
+
+.hero-img{
+    height: 8em;
+    width: 8em;
+}
+
+.hero-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.item p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.remove-btn {
+    padding: 0.7rem;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
